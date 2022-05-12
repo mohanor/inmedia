@@ -121,6 +121,26 @@ h1 {
 }
 
 
+.about-us {
+    text-align: center;
+}
+
+.about-us .div-h3 {
+    padding: 40px 0 0 0;
+    margin-bottom: 25px;
+}
+
+.about-us .div-h3 h3 {
+    font-size: 23px;
+}
+
+.description {
+    font-size: 16px;
+    padding: 0 10px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 15px;
+}
 
 /**********/
 
@@ -223,8 +243,7 @@ ul li:before {
 .c-section__title {
     padding: var(--s2) var(--s3) calc(var(--s6) * 1.8);
     margin: 0 calc(var(--s3) * -1);
-    color: #fff;
-    font-size: var(--s4);
+    font-size: 23px;
     font-weight: 900;
     text-align: center;
 }
@@ -457,7 +476,7 @@ ul li:before {
 }
 
 .c-services__item h3 {
-    color: var(--color-brand-primary);
+    color: #0228df;
     font-size: var(--s1);
     line-height: 1.2;
 }
