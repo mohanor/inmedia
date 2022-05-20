@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Noto Kufi Arabic', sans-serif !important;
+    box-sizing: border-box;
 }
 
 .wrapper {
@@ -95,7 +96,7 @@
 }
 
 header {
-    padding: 100px 0;
+    padding: 45px 0 0 0;
     text-align: center;
 }
 
@@ -136,7 +137,6 @@ h1 {
 
 .description {
     font-size: 16px;
-    padding: 0 25px;
     font-weight: 500;
     text-align: justify;
     margin-top: 30px;
@@ -174,28 +174,119 @@ h1 {
     margin-bottom: 20px;
 }
 
+.c-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
 .c-section h3 {
     margin: 12px 0;
 }
 
-main {
-    width: 84% !important;
+/* end our service*/
+
+/* start contact us*/
+
+.contact-section {
+    margin-top: 30px;
 }
 
-@media screen and (min-width: 320px) {
-    main {
-        width: 90% !important;
-    }
+.h-contact-us {
+    text-align: center;
 }
+
+.div-input {
+    margin-bottom: 16px;
+}
+
+.div-input label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.c-input {
+    width: 100%;
+    background: transparent;
+    border-color: #e5e5e5;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-width: 1px;
+    color: #292e40;
+    padding: 0.75rem 1rem;
+    border-color: #63677875;
+    outline: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.c-input:focus {
+    box-shadow: 0 20px 48px -14px rgb(153 161 170 / 25%);
+    border-color: #636778;
+}
+
+.axil-btn {
+    background-color: #5956E9;
+    color: var(--color-white);
+    border: 1px solid #5956E9;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    padding: 18px 55px;
+    height: auto;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.contact-info {
+    background-color: #27272E;
+    border-radius: 14px;
+    padding: 60px 50px;
+    box-shadow: 0 9px 18px 0 rgb(0 0 0 / 25%);
+    margin-bottom: 30px;
+    color: #999FAE;
+}
+
+.contact-info h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #999FAE;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    direction: ltr;
+}
+
+.phone-and-mail {
+    margin-top: 50px;
+}
+
+/* end contact us*/
+
+@media screen and (min-width: 320px) {}
 
 @media screen and (min-width: 768px) {
-    main {
-        width: 100% !important;
-    }
-
     .box {
         height: 260px;
     }
 }
-
-/* end our service*/
