@@ -251,16 +251,16 @@ select {
 }
 
 .contact-info {
-    background-color: #27272E;
+    background-color: #1B1A17;
     border-radius: 14px;
     padding: 60px 50px;
     box-shadow: 0 9px 18px 0 rgb(0 0 0 / 25%);
     margin-bottom: 30px;
-    color: #999FAE;
+    color: #F0E3CA;
 }
 
 .contact-info h3 {
-    color: #fff;
+    color: #F0E3CA;
     margin-bottom: 10px;
 }
 
@@ -270,7 +270,7 @@ select {
 }
 
 .contact-info a {
-    color: #999FAE;
+    color: #F0E3CA;
     text-decoration: none;
     font-size: 25px;
     font-weight: 600;
