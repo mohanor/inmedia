@@ -349,10 +349,7 @@ footer .desc {
     padding: 20px;
 }
 
-.footer-content {
-    max-width: 500px;
-    margin: 0 auto;
-}
+
 
 /* end footer*/
 
@@ -362,6 +359,11 @@ footer .desc {
 @media screen and (min-width: 768px) {
     .box {
         height: 260px;
+    }
+
+    .footer-content {
+        max-width: 500px;
+        margin: 0 auto;
     }
 
     header {
