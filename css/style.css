@@ -251,16 +251,16 @@ select {
 }
 
 .contact-info {
-    background-color: #1B1A17;
+    background-color: #212121;
     border-radius: 14px;
     padding: 60px 50px;
     box-shadow: 0 9px 18px 0 rgb(0 0 0 / 25%);
     margin-bottom: 30px;
-    color: #F0E3CA;
+    color: #D9CAB3;
 }
 
 .contact-info h3 {
-    color: #F0E3CA;
+    color: #F6F6F6;
     margin-bottom: 10px;
 }
 
@@ -270,7 +270,7 @@ select {
 }
 
 .contact-info a {
-    color: #F0E3CA;
+    color: #F6F6F6;
     text-decoration: none;
     font-size: 25px;
     font-weight: 600;
@@ -282,6 +282,55 @@ select {
 }
 
 /* end contact us*/
+
+/* footer */
+
+footer {
+    background-color: #212121;
+    text-align: center;
+}
+
+footer * {
+    color: #F6F6F6;
+}
+
+.logo-footer {
+    width: 50%;
+}
+
+footer .desc {
+    margin: 0 0 20px 0;
+    line-height: 28px;
+}
+
+.socials {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    padding: 9px;
+}
+
+.footer-bottom {
+    background: #000;
+    padding: 20px;
+}
+/* end footer*/
 
 @media screen and (min-width: 320px) {}
 
