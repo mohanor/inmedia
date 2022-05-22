@@ -259,6 +259,7 @@ h1 {
     text-align: center;
     color: #fff;
     display: block;
+    cursor: pointer;
 }
 
 select {
