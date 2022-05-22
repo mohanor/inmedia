@@ -109,15 +109,20 @@ header {
 }
 
 .call-now {
-    padding: 13px 20px;
+    padding: 10px 20px;
     background-color: #0228df;
     text-decoration: none;
     color: white;
     font-weight: 700;
+    border-radius: 15px;
+}
+
+.div-h1 {
+    padding: 0 1rem;
 }
 
 h1 {
-    font-size: 34px;
+    font-size: 27px;
     margin: 0 auto;
 }
 
@@ -140,10 +145,16 @@ h1 {
     font-weight: 500;
     text-align: justify;
     margin-top: 30px;
+    padding: 0 1rem;
 }
 
 .about-us-img {
     transform: translateX(13px);
+}
+
+.section-title {
+    padding: 40px 0 0 0;
+    margin-bottom: 25px;
 }
 
 /* start our service*/
@@ -181,6 +192,12 @@ h1 {
 
 .c-section h3 {
     margin: 12px 0;
+    font-size: 18px;
+}
+
+.c-services__item h3,
+.c-services__item p {
+    line-height: 28px;
 }
 
 /* end our service*/
@@ -226,9 +243,9 @@ h1 {
 }
 
 .axil-btn {
-    background-color: #5956E9;
+    background-color: #0228df;
     color: var(--color-white);
-    border: 1px solid #5956E9;
+    border: 1px solid #0228df;
     border-radius: 20px;
     font-size: 16px;
     font-weight: 500;
@@ -253,7 +270,8 @@ select {
 .contact-info {
     background-color: #212121;
     border-radius: 14px;
-    padding: 60px 50px;
+    /* padding: 60px 50px; */
+    padding: 40px 20px;
     box-shadow: 0 9px 18px 0 rgb(0 0 0 / 25%);
     margin-bottom: 30px;
     color: #D9CAB3;
@@ -311,11 +329,11 @@ footer .desc {
     margin: 1rem 0 3rem 0;
 }
 
-.socials li{
+.socials li {
     margin: 0 10px;
 }
 
-.socials a{
+.socials a {
     text-decoration: none;
     color: #fff;
     border: 1px solid white;
@@ -330,6 +348,7 @@ footer .desc {
     background: #000;
     padding: 20px;
 }
+
 /* end footer*/
 
 @media screen and (min-width: 320px) {}
