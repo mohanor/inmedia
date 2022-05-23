@@ -416,14 +416,13 @@ footer .desc {
     opacity: 0;
     text-transform: uppercase;
     font-size: 7em;
-    margin: 8rem 0 0;
     line-height: 1.1;
 }
 
 .left p {
     text-align: center;
     font-size: 2em;
-    margin: 0;
+    margin: 10px 0;
     opacity: 0;
 }
 
@@ -485,11 +484,7 @@ footer .desc {
     transition: 0.25s;
 }
 
-.social {
-    position: absolute;
-    bottom: 0;
-    left: calc(50% - 25px);
-}
+
 
 @media screen and (min-width: 320px) {}
 
@@ -527,7 +522,11 @@ footer .desc {
         text-align: right;
     }
 
-
+    .social {
+        position: absolute;
+        bottom: 0;
+        left: calc(50% - 25px);
+    }
 
     header {
         padding: 0;
@@ -619,6 +618,11 @@ footer .desc {
         float: none;
         height: 50%;
         width: 100%;
+    }
+
+    .left {
+        display: grid;
+        place-content: center;
     }
 }
 
