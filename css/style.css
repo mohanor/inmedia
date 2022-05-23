@@ -451,20 +451,17 @@ footer .desc {
     background: #F6F6F6;
     margin: 0;
     padding: 0;
+    display: grid;
+    place-content: center;
 }
 
 .right-inner li {
     list-style-type: none;
     opacity: 0;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0.5rem 0;
 }
-
-.right-inner li:first-child {
-    margin-top: 4rem;
-}
-
 
 .right-inner i {
     margin: 0.25rem 0.35rem;
