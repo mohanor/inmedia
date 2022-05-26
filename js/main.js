@@ -93,3 +93,34 @@ $('.hamb').on('click', function () {
     }
 });
 /*end menu */
+
+$('.nav-link').on('click', function () {
+    $('.hamb')
+        .removeClass('open')
+        .find('i')
+        .addClass('fa-bars')
+        .removeClass('fa-times');
+
+    $('nav').velocity({
+        height: 0,
+        width: 0,
+        minHeight: 0
+    }, {
+        duration: 250,
+        begin: function () {
+            $('nav').find('h1, p, small').css({
+                opacity: 0
+            })
+            $('.right-inner').find('li, .social i').css({
+                opacity: 0
+            });
+        },
+        complete: function () {
+            $('.right-inner').css({
+                width: 0
+            });
+        }
+    });
+
+    icons[0].classList.toggle("open");
+})
