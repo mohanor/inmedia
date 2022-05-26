@@ -467,7 +467,17 @@ footer .desc {
     margin: 0.5rem 0;
 }
 
-
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
 
 @media screen and (min-width: 320px) {}
 
@@ -475,7 +485,7 @@ footer .desc {
     header {
         background-size: auto;
     }
-    
+
     .box {
         height: 260px;
     }
