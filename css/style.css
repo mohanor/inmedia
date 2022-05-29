@@ -27,6 +27,20 @@ html {
     box-shadow: 0 0 4px rgb(0 0 0 / 10%);
 }
 
+.my-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: all .5s;
+    z-index: 99;
+}
+
+.my-nav-active {
+    box-shadow: 0 2px 4px -2px rgb(175 175 175 / 50%);
+    background-color: #fff;
+}
+
 .inmedia {
     font-weight: 500;
     font-size: 42px;
@@ -105,6 +119,9 @@ html {
 
 header {
     background: radial-gradient(circle, rgba(202,240,212,1) 0%, rgba(223,211,242,1) 99%);
+    height: 100vh;
+    display: grid;
+    place-content: center;
 }
 
 .header-content {
@@ -145,6 +162,7 @@ h1 {
 .about-us {
     text-align: center;
     z-index: -1;
+    margin-top: 30px;
 }
 
 .about-us .div-h3 {
@@ -499,6 +517,7 @@ footer .desc {
         background: url(../media/hero-gradient.webp) center no-repeat;
         background-size: auto;
         padding: 0;
+        height: auto;
     }
 
     h1 {

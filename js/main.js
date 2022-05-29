@@ -11,8 +11,8 @@ var menuOpen = [
     {
         elements: $('.nav'),
         properties: {
-            height: ['100%', 0],
-            width: ['100%', 0],
+            height: ['100vh', 0],
+            width: ['100vw', 0],
             // minHeight: '40rem'
         },
         options: {
@@ -131,6 +131,7 @@ $('.nav-link').on('click', function () {
 window.addEventListener("scroll", reveal);
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
+    var my_nav = document.querySelector('.my-nav');
     for (var i = 0; i < reveals.length; i++) {
         var windowHeight = window.innerHeight;
         var elementTop = reveals[i].getBoundingClientRect().top;
@@ -140,6 +141,12 @@ function reveal() {
         } else {
             reveals[i].classList.remove("active");
         }
+    }
+
+    if (window.scrollY)
+        my_nav.classList.add("my-nav-active");
+    else {
+        my_nav.classList.remove("my-nav-active");
     }
 }
 /** */
