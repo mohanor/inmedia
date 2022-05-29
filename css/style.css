@@ -49,6 +49,7 @@ html {
 
 .div-img-aboutus img {
     width: 100%;
+    height: auto;
     overflow: hidden;
 }
 
@@ -349,6 +350,7 @@ footer * {
 
 .logo-footer {
     width: 50%;
+    height: auto;
 }
 
 footer .desc {
