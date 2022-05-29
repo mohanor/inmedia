@@ -104,7 +104,7 @@ html {
 }
 
 header {
-    background: url(../media/hero-gradient.webp) center no-repeat;
+    background: url(../media/hero.webp) center no-repeat;
     background-size: cover;
 }
 
@@ -488,6 +488,7 @@ footer .desc {
 
 @media screen and (min-width: 768px) {
     header {
+        background: url(../media/hero-gradient.webp) center no-repeat;
         background-size: auto;
     }
 

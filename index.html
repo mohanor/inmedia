@@ -66,7 +66,8 @@
     </header>
 
     <main class="container">
-        <section class="about-us reveal" id="about-us">
+        <span id="about-us"></span>
+        <section class="about-us reveal">
             <div class="section-title div-h3">
                 <h3>
                     من نحن ؟
@@ -85,8 +86,8 @@
                 </div>
             </div>
         </section>
-
-        <section class="c-section reveal" id="our-service">
+        <span id="our-service"></span>
+        <section class="c-section reveal">
             <div class="section-title">
                 <h2>
                     خدماتنا
@@ -167,8 +168,8 @@
                 </div>
             </div>
         </section>
-
-        <section class="contact-section reveal" id="contact-us">
+        <span id="contact-us"></span>
+        <section class="contact-section reveal">
             <div class="section-title h-contact-us">
                 <h2>
                     تواصل معنا
@@ -263,29 +264,10 @@
 
     </footer>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.ui.min.js"></script>
-    <script src="./js/main.js"></script>
-
-    <script>
-
-        window.addEventListener("scroll", reveal);
-        function reveal() {
-            var reveals = document.querySelectorAll(".reveal");
-            for (var i = 0; i < reveals.length; i++) {
-                var windowHeight = window.innerHeight;
-                var elementTop = reveals[i].getBoundingClientRect().top;
-                var elementVisible = 150;
-                if (elementTop < windowHeight - elementVisible) {
-                    reveals[i].classList.add("active");
-                } else {
-                    reveals[i].classList.remove("active");
-                }
-            }
-        }
-
-    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" defer></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js" defer></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.ui.min.js" defer></script>
+    <script src="./js/main.js" defer></script>
 </body>
 
 </html>
