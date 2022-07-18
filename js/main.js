@@ -5,7 +5,7 @@ icons.forEach(icon => {
     });
 });
 
-/* menu */
+/*  menu */
 
 var menuOpen = [
     {
@@ -92,7 +92,8 @@ $('.hamb').on('click', function () {
         $.Velocity.RunSequence(menuOpen)
     }
 });
-/*end menu */
+
+/*  end menu    */
 
 $('.nav-link').on('click', function () {
     $('.hamb')
@@ -137,9 +138,6 @@ function reveal() {
         var windowHeight = window.innerHeight;
         var elementTop = reveals[i].getBoundingClientRect().top;
         var elementVisible = 100;
-        console.log(window.innerHeight)
-        console.log('elementtop ', elementTop)
-
         if (elementTop > window.innerHeight)
         {
             reveals[i].classList.add("active");
